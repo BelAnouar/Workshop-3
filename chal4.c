@@ -7,7 +7,7 @@ int Max_2(int a, int b) {
 
 int Max_4(int a, int b, int c, int d) {
     int max1 = Max_2(a, b); // Trouver le maximum de a et b
-    int max2 = Max_2(c, d); // Trouver le maximum de c et d
+    int max2 = Max_2(c, d); // Trouvggxer le maximum de c et d
     return Max_2(max1, max2); // Trouver le maximum de max1 et max2
 }
 
