@@ -5,7 +5,6 @@ int Max_2(int a, int b) {
     return (a > b) ? a : b;
 }
 
-// Fonction qui trouve le maximum de quatre entiers en utilisant Max_2
 int Max_4(int a, int b, int c, int d) {
     int max1 = Max_2(a, b); // Trouver le maximum de a et b
     int max2 = Max_2(c, d); // Trouver le maximum de c et d
