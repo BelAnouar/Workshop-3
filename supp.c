@@ -40,7 +40,7 @@ int main() {
         printf("Value %d deleted from the array.\n", valueToDelete);
         printf("Updated array: ");
         for (int i = 0; i < n; i++) {
-            printf("%d ", arr[i]);
+            printf("%d\n", arr[i]);
         }
         printf("\n");
     } else {
