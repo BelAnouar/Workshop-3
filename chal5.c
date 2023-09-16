@@ -8,8 +8,8 @@ void Permuter(double *a, double *b) {
 }
 
 int main() {
-    double x = 5.0;
-    double y = 10.0;
+    double x = 5;
+    double y = 10;
 
     printf("Avant permutation : x = %.2lf, y = %.2lf\n", x, y);
 
